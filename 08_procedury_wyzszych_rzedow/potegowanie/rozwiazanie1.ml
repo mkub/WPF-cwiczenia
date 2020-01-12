@@ -4,4 +4,3 @@ let iterate n f =
         identity
     else
         compose f (iterate (n - 1) f);;
-
