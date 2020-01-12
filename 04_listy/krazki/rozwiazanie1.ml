@@ -2,7 +2,7 @@
 (* srednice to niepusta lista srednic kolejnych 
    krazkow wrzucanych do walca *)
 let krazki otwory srednice =
-    let rec _krazki otwory srednice =
+    let rec pom otwory srednice =
         match srednice with
             | [] -> List.length otwory
             | s :: s_res ->
@@ -10,7 +10,7 @@ let krazki otwory srednice =
                     | [] -> 0
                     | o :: o_res ->
                         if s <= o then
-                            _krazki o_res s_res
+                            pom o_res s_res
                         else
-                            _krazki o_res srednice
-    in _krazki otwory srednice;;
+                            pom o_res srednice
+    in pom otwory srednice;;

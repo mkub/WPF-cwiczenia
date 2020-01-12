@@ -3,5 +3,5 @@ let zera_silni n =
         if five_power > n then
             acc
         else
-            count (acc + n / five_power) (five_power * 5)
-    in count 0 5;;
+            count (acc + n / five_power) (five_power * 5) in
+    count 0 5;;

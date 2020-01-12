@@ -8,5 +8,5 @@ let punkt_staly f =
         if f mid > mid then
             binsearch (mid + 1) r
         else
-            binsearch l mid
-    in binsearch INT_MIN INT_MAX;;
+            binsearch l mid in
+    binsearch INT_MIN INT_MAX;;
