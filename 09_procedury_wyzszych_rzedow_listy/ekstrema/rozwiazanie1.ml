@@ -15,10 +15,10 @@ let ekstrema xs =
         res in
     let ys = 0 :: diff (unique xs) @ [0] in
     let step (cnt, lst) x =
-        let _cnt = 
+        let pom = 
             if x * cnt <= 0 then
                 cnt + 1
             else cnt in
-        (_cnt, x) in
+        (pom, x) in
     let (res, _) = List.fold_left step (0, List.hd ys) (List.tl ys) in
     res;;

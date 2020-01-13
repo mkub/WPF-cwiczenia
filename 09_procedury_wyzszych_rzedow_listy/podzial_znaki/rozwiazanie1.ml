@@ -1,4 +1,4 @@
-open List
+open List;;
 
 let podzial = function
     | [] -> []
@@ -10,6 +10,6 @@ let podzial = function
             else
                 [nw] :: acc
         in
-        rev (map rev (fold_left step [[x]] xs))
+        rev (map rev (fold_left step [[x]] xs));;
 
-
+assert (podzial [1;3;0;-2;-2;-4;9] = [[1; 3]; [0]; [-2;-2;-4]; [9]]);;

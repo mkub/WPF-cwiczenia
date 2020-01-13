@@ -8,4 +8,3 @@ let widoczne xs =
         (cur_sum + x, _acc) in
     let (_, res) = List.fold_left step (0, []) xs in
     res;;
-
