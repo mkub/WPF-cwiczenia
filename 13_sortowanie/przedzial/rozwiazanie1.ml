@@ -12,3 +12,4 @@ let przedzial xs r =
     let sorted = List.sort compare xs in
     gasienica 0 0 sorted sorted;;
 
+assert (przedzial [2; -2; 5; -1; 11; 8; 4; 5; 8; 7] 2 = 6);;

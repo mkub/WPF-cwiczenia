@@ -1,4 +1,4 @@
-open List
+open List;;
 
 let przekladaniec xs =
     let xs = sort compare xs in

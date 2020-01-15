@@ -1,6 +1,6 @@
-type 'a option = None | Some of 'a
+type 'a option = None | Some of 'a;;
 type 'a elem = {v: 'a; mutable next: 'a lista}
-and 'a lista = 'a elem option
+and 'a lista = 'a elem option;;
 
 let petla l =
     match l with
@@ -21,5 +21,6 @@ let petla l =
         in 
         loop st st.next;;
 
-let a = Some {v = 1; next = Some {v = 2; next = Some {v = 3; next = None }}}
-
+let a = Some {v = 1; next = Some {v = 2; next = Some {v = 3; next = None }}};;
+petla a;;
+(* Some {v = 1; next = Some {v = 3; next = Some {v = 2; next = Some <cycle>}}}) *)
