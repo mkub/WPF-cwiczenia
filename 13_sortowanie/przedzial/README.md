@@ -1,0 +1,1 @@
+Napisz procedurę `przedzial : int list → int → int`, która dla danej listy `[x_1;...;x_n]`, oraz dla liczby całkowitej `r >= 0` obliczy taką liczbę całkowitą `c`, że `|{i : |x_i − c| <= r}|` jest maksymalne.

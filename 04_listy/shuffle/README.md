@@ -1,0 +1,1 @@
+Napisz procedurę `shuffle: α list → α list → α list`, która dla danych dwóch list postaci `[x1;x2;...;xn]` oraz `[y1;y2;...;ym]` wyznaczy listę postaci `[x1;y1;x2;y2;...]`. Jeżeli jedna z list jest dłuższa, to jej końcowe elementy trafiają na koniec listy wynikowej.
