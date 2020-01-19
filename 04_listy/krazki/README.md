@@ -1,3 +1,5 @@
+[XIII OI]
+
 Mały Jaś dostał od rodziców na urodziny nową zabawkę, w której skład wchodzą rurka i krążki.
 Rurka ma nietypowy kształt -- mianowicie jest to połączenie pewnej liczby walców (o takiej samej grubości)
 z wyciętymi w środku (współosiowo) okrągłymi otworami różnej średnicy.
