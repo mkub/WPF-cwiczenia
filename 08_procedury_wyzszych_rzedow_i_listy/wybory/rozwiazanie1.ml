@@ -1,3 +1,5 @@
+open List;;
+
 let wybory l = 
   let licz (obecny, liczba_o, kandydat, liczba_k) h =
     if h = kandydat then

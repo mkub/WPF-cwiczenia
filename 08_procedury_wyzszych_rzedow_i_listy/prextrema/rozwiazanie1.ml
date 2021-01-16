@@ -1,3 +1,5 @@
+open List;;
+
 let prextrema l = 
   if l = [] then [] else
   let extrema (min, max, list) h =
