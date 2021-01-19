@@ -1,0 +1,3 @@
+Jaś pracuje wykonując zlecenia, które dostaje od swojego szefa. Wykonuje je w kolejności ich otrzymania. Wykonanie każdego zlecenia zajmuje mu określony czas. Masz daną tablicę par: moment otrzymania zlecenia, czas potrzebny na jego wykonanie, posortowaną ściśle rosnąco po momentach otrzymania zleceń.
+Napisz procedurę zlecenia:(int∗int) list→int list, która dla każdego zlecenia wyznaczy ile czasu upłynie od momentu otrzymania zlecenia do momentu jego wykonania.
+Na przykład: zlecenia [(-1, 1); (2, 2); (3, 3); (4, 2); (10, 2)] = [1; 2; 4; 5; 2]}. 

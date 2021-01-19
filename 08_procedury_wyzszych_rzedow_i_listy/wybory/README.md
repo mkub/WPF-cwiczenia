@@ -1,0 +1,1 @@
+Napisz procedurę wybory:int list→int, która mając daną posortowaną niemalejąco listę liczb całkowitych, znajdzie liczbę która pojawia się na niej najwięcej razy (w przypadku takiej samej liczby wystąpień, wybierz największą taką liczbę). 
